@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evihyper"
+version = "0.3.0"
+description = "Query-conditioned hypergraph forecasting from irregular multichannel signals"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+dependencies = ["torch>=2.5,<3"]
+
+[project.optional-dependencies]
+experiments = ["numpy>=1.24,<3"]
+
+[tool.setuptools.packages.find]
+include = ["evihyper*"]

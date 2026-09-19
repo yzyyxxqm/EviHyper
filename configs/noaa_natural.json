@@ -1,0 +1,18 @@
+{
+  "seq_len": 48,
+  "pred_len": 24,
+  "enc_in": 5,
+  "horizon_context": true,
+  "candidate_oracle_aux_weight": 0.25,
+  "candidate_oracle_horizon_gamma": 0.4,
+  "candidate_margin_aux_weight": 0.08,
+  "candidate_margin_threshold": 0.02,
+  "sixth_candidate_logit_bias": -0.35,
+  "sixth_candidate_max_mass": 0.4,
+  "circular_embedding_variables": "3",
+  "circular_embedding_periods": "3:3.0864",
+  "station_count": 8,
+  "station_time_steps": 8784,
+  "station_value_bias": true,
+  "station_phase_bias": true
+}

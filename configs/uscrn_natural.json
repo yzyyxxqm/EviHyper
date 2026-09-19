@@ -1,0 +1,7 @@
+{
+  "seq_len": 48,
+  "pred_len": 24,
+  "enc_in": 5,
+  "horizon_context": true,
+  "candidate_oracle_aux_weight": 0.025
+}

@@ -1,0 +1,8 @@
+{
+  "seq_len": 48,
+  "pred_len": 24,
+  "enc_in": 5,
+  "horizon_context": true,
+  "circular_embedding_variables": "3",
+  "circular_embedding_periods": "3:3.0864"
+}

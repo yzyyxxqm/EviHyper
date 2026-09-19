@@ -1,0 +1,9 @@
+{
+  "seq_len": 48,
+  "pred_len": 24,
+  "enc_in": 7,
+  "time_mark_mode": "prepend_relative",
+  "periodic_post_blend": 0.1,
+  "sixth_candidate_logit_bias": 0.35,
+  "sixth_candidate_max_mass": 0.65
+}
